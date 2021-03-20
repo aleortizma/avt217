@@ -1,0 +1,38 @@
+@charset "UTF-8";
+/* CSS Document */
+@font-face {
+    font-family: '1942_report1942_report';
+    src: url('1942-webfont.woff') format('woff');    
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('blackjack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: '1942_report1942_report';
+}
+
+h2 {
+	font-family: 'black_jackregular';
+}
+
+h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400
+}
+
+h4 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900
+}
+
+p {
+	font-family: 'Caveat', cursive;
+	font-size: 30px
+}
