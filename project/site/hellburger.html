@@ -3,42 +3,118 @@
 <head>
 <meta charset="UTF-8">
 <title>Hell Burger</title>
+	<link rel="stylesheet" href="css/hellburger.css">
 </head>
 
 <body>
-	<div>
-		<h1>Hell Burger</h1> 
-		<ul>
-			<li><a href="about.html">About</a></li>
-			<li><a href ="menu.html">Menu</a></li>
-			<li><a href="shop.html">Shop</a></li>
-			<li><a href="hellburger.html">Location</a></li>
-		</ul>
-		<h2>Burgers Good As Hell</h2>
-		<h4>View Menu</h4>	
+	<div id="header">
+		<div id="logo"><a href="hellburger.html">
+			<img src="img/hellburger_logo.png" alt="Hell Burger" height="71px"></a>
+		</div>
+		<div>
+		<nav>
+		<a class="nav-menu" href="about.html">ABOUT</a>
+	    <a class="nav-menu" href="menu.html">MENU</a>
+		<a class="nav-menu" href="shop.html">SHOP</a>
+		</nav>
+		</div>
+	</div>	
+	
+	<div class="header-text">
+			<h6>Burgers Good<br>As Hell</h6>
+			<div class="button">
+				<a class=header-button href="about.html">VIEW MENU</a>
+			</div>
 	</div>
-    <div>
-		<h3>Hellish Since 2016</h3>
-		<p>Welcome to Hell Burger, your number one source for all things hellish! We're dedicated to giving you the very best of food, with a focus on quality, flavor, and charisma.<br>Try out one of our juicy
- 		burgers today!</p>
-		<h4><a href="about.html">More</a></h4>
-	</div>
-	<div>
-		<h3>Tasty Tempations</h3>
-		<h4>Burgers</h4>
-		<h4>Sides</h4>
-		<h4>House Brews</h4>
-		<h4><a href="menu.html">View Menu</a></h4>
-	</div>
-	<div>
-		<h3>Shop Our Merch</h3>
-		<h4><a href="shop.html">View Store</a></h4>
-	</div>
-	<div>
-		<h3>Location and Hours</h3>
-		<p><b>Crystal City</b><br>0000 Crystal City Drive <br>Arlington, VA 22202<br>xxx-xxx-xxxx</p>
-		<p><b>Hours of Operation</b><br>Monday 11 AM - 8 PM <br>Tuesday 11 AM - 8 PM<br>Wednesday 11 AM - 8 PM<br>Thursday 11 AM - 10 PM<br>Friday 11 AM - 10 PM<br> Sat/Sun 11 AM - 8 PM </p>
+	
+	<div id="home-about">
+		<div class="row">
+		  <div class="home-about_column">
+			  <img src="img/chef.jpg" alt="chef" height="400px">
+		  </div>
+		  <div class="home-about_column">
+				<h3>Hellish Since 2016</h3>
+				<p>Welcome to Hell Burger, your number one source for all things hellish! We're dedicated to giving you the very best of food, with a focus on quality, flavor, and charisma.</p><br><p>Try out one of our juicy
+				burgers today!</p>
+			<div class="button">
+				<a class=about-button href="about.html">READ MORE</a>
+			</div>
+		</div>
+		  </div>
+		</div>
 		
+	<div id="home-menu">
+		<h3>TASTY TEMPTATIONS</h3>
+		<div class="row">
+		  <div class="menu_column">
+			  <img src="img/burger-1.jpg" alt="Burger" width="300px" height="300px">
+			<h4>BURGERS</h4>
+		  </div>
+		  <div class="menu_column">
+			 <img src="img/fries.jpeg" alt="Fries" width="300px" height="300px">
+			<h4>SIDES</h4>
+		  </div>
+
+		  <div class="menu_column">
+			  <img src="img/brews.jpg" alt="brews" width="300px" height="300px">
+			<h4>BREWS</h4>
+		  </div>
+		</div>
+		<div class="row">
+				<a class=menu-button href="menu.html">VIEW MENU</a>
+		</div>
+		</div>	
+	<div id="home-shop">
+		<h3>SHOP OUR MERCH</h3>
+		<div class="row">
+		  <div class="home-shop_column">
+			  <img src="img/tote.jpg" alt="Buger" width="300px" height="300px">
+			<h4>TOTE BAG</h4>
+		  </div>
+		  <div class="home-shop_column">
+			 <img src="img/tshirt.jpg" alt="Fries" width="300px" height="300px">
+			<h4>T-SHIRT</h4>
+		  </div>
+
+		  <div class="home-shop_column">
+			  <img src="img/snapback.jpg" alt="feeding america" width="300px" height="300px">
+			<h4>SNAPBACK</h4>
+		  </div>
+		</div>
+		<div class="row">
+				<a class=shop-button href="shop.html">VIEW STORE</a>
+		</div>
 	</div>
+	
+	<div id="location"> 
+	<div class="row">
+		  <div class="location_column">
+			  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24856.743618086966!2d-77.06912412382482!3d38.85322923652436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b7b7293a52128b%3A0x30a822649d12df4!2sCrystal%20City%2C%20Arlington%2C%20VA!5e0!3m2!1sen!2sus!4v1619401865424!5m2!1sen!2sus" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		  </div>
+			<div class="location_column">
+				<h3>Location and Hours</h3>
+				<h4>Crystal City</h4><br>0000 Crystal City Drive<br>Arlington, VA 22202<br>xxx-xxx-xxxx<br><br>
+				<h4>Hours of Operation</h4><br>Sunday - Wednesday: 11 AM - 10 PM<br>Thursday - Saturday: 11 AM - 12 AM
+			</div>
+  		</div>
+	</div>
+	
+	
+<div id="footer">
+	<div class="logo-icon">
+		<a href="hellburger.html"><img src="img/logo_icon-01.png" alt="Hell Burger icon" height="50px"></a>
+	</div>
+	<div class="nav-button">
+		<a href="about.html"><img src="img/nav_button-01.png" alt="back to top" height="50px"></a>
+	</div>
+	<div class="social">
+		<a class="social-icon" href="https://www.facebook.com/"><img src="img/social-01.png" alt="Hell Burger icon" height="40px" ></a>
+		<a class="social-icon" href="https://www.instagram.com"><img src="img/social-03.png" alt="Hell Burger icon" height="40px"></a>
+		<a class="social-icon" href="https://www.twitter.com"><img src="img/social-02.png" alt="Hell Burger icon" height="40px"></a>
+	
+	</div>
+	
+</div>
+	
 </body>
 </html>
