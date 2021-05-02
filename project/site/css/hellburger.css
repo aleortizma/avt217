@@ -45,8 +45,13 @@ h4 {
 	margin-top: 15px;
 }
 
+h5 {
+	font-size: 20pt;
+	color: #9b020a;
+	font-weight: 600;
+}
 h6 {
-	font-size: 35pt;
+	font-size: 60pt;
 	font-weight: 600;
 	
 }
@@ -81,11 +86,11 @@ table {
   border-radius: 8px;
 }
 
-.header-button:hover, a:active {
+.header-button:hover {
   background-color: red;
 }
 
-.about-button:link, a:visited {
+.about-button:link {
   background-color: #9b020a;
   color: white;
   padding: 14px 25px;
@@ -96,11 +101,11 @@ table {
   border-radius: 8px;
 }
 
-.about-button:hover, a:active {
+.about-button:hover {
   background-color: red;
 }
 
-.menu-button:link, a:visited {
+.menu-button:link {
   background-color: #9b020a;
   color: white;
   padding: 14px 25px;
@@ -111,11 +116,11 @@ table {
   border-radius: 8px;
 }
 
-.menu-button:hover, a:active {
+.menu-button:hover {
   background-color: red;
 }
 
-.shop-button:link, a:visited {
+.shop-button:link {
   background-color: #9b020a;
   color: white;
   padding: 14px 25px;
@@ -126,7 +131,7 @@ table {
   border-radius: 8px;
 }
 
-.shop-button:hover, a:active {
+.shop-button:hover {
   background-color: red;
 }
 
@@ -135,8 +140,21 @@ table {
 #header {
 	background-image: url("../img/burgerheader-3.jpg");
 	background-repeat: no-repeat;
+	background-position: center bottom;
 	background-size: cover;
 	height: 400px;
+	text-shadow: 2px 2px 5px #3d3d3d;
+	display: flex;
+	justify-content: space-between;
+}
+
+#home-header {
+	background-image: url("../img/burgerheader-main.jpg");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-size: cover;
+	height: 100vh;
 	text-shadow: 2px 2px 5px #3d3d3d;
 	display: flex;
 	justify-content: space-between;
@@ -163,8 +181,8 @@ nav {
 .header-text {
  margin-left: 129px;
  margin-right: 129px;
- margin-top: -250px;
- margin-bottom: 150px;
+ margin-top: -450px;
+ margin-bottom: 250px;
 	
 
 }
@@ -237,20 +255,18 @@ a:active {
 }
 
 #home-about {
-	margin-left: 129px;
-	margin-right: 129px;
+	margin-left: 175px;
+	margin-right: 140px;
 	margin-top: 40px;
 	text-align: center;
 	margin-bottom: 300px;
 	} 
 .home-about_column {
-  height: 200px;
 	margin-right: 30px;
 	margin-left: 30px;
+	margin-bottom: -230px;
 }
 #home-menu {
-	margin-left: 129px;
-	margin-right: 129px;
 	text-align: center;
 	margin-bottom: 100px;
 	} 
@@ -258,10 +274,16 @@ a:active {
   height: 200px;
 	margin-right: 30px;
 	margin-left: 30px;
+	text-align: left;
+}
+
+.home_menu_column {
+  height: 200px;
+	margin-right: 30px;
+	margin-left: 30px;
+	text-align: center;
 }
 #home-shop {
-	margin-left: 129px;
-	margin-right: 129px;
 	text-align: center;
 	align-content: center;
 	margin-bottom: 80px;
@@ -276,14 +298,15 @@ a:active {
 	margin-left: 129px;
 	margin-right: 129px;
 	text-align: left;
-	margin-bottom: 170px;
 	} 
 .location_column {
-  height: 200px;
-	margin-right: 30px;
-	margin-left: 30px;
+	margin-right: 70px;
+	margin-left: 50px;
 	margin-bottom: 100px;
 }
+
+/* Home Page Ends */
+
 /* About Page */
 #about {
 	margin-left: 129px;
@@ -320,3 +343,77 @@ a:active {
 }
 
 /* About Page Section Ends */
+
+/* Menu */
+#menu {
+	margin-left: px;
+	margin-right: px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.menu_column {
+  height: 200px;
+	margin-right: px;
+	margin-left: px;
+	text-align: left;
+}
+
+.menu_column2 {
+  height: 200px;
+	margin-right: px;
+	margin-left: px;
+	text-align: right;
+}
+
+.side_prices {
+  height: 200px;
+	margin-right: 300px;
+	margin-left: 30px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+.drink_prices {
+  height: 200px;
+	margin-right: 30px;
+	margin-left: 300px;
+	margin-top: 60px;
+	text-align: left;
+}
+.entre_prices {
+  height: 200px;
+	margin-right: 30px;
+	margin-left: 220px;
+	margin-top: 60px;
+	text-align: left;
+}
+
+.menu-row {
+  display: flex;
+  justify-content:center;
+  margin-bottom: 150px;
+}
+
+/* Menu Page Ends */
+
+/* Shop Page */
+
+#shop {
+	margin-left: 129px;
+	margin-right: 129px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+	text-align: center;
+}
+
+.shop_column {
+    height: 200px;
+	margin-right: 30px;
+	margin-left: 30px;
+	align-content: center;
+	margin-bottom: 250px;
+}
+
+/* Shop Page Ends */
